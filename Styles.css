@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.Navigation-Bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 25px;
+    background-color: #333;
+    color: white;
+}
+
+.Navigation-Bar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.Navigation-Bar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Navigation-Bar nav ul li {
+    margin-left: 20px;
+}
+
+.Navigation-Bar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.Navigation-Bar nav ul li a span {
+    margin-right: 5px;
+    /* margin-bottom: 5px; */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Navigation-Bar nav ul li a:hover {
+    color: antiquewhite;
+}
